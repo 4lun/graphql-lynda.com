@@ -4,7 +4,8 @@
   "description": "Personal files from following the [course on lynda.com](https://www.lynda.com/GraphQL-tutorials/GraphQL-Essential-Training/614315-2.html)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node -e js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/4lun/graphql-lynda.com/issues"
   },
-  "homepage": "https://github.com/4lun/graphql-lynda.com#readme"
+  "homepage": "https://github.com/4lun/graphql-lynda.com#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
 }
