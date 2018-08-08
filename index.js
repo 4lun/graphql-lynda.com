@@ -9,7 +9,14 @@ app.get("/", (req, res) => {
   res.send("GraphQL is amazing!");
 });
 
-const rootValue = { hello: () => "Hi, I'm Alun" };
+const rootValue = { friend: () => ({
+  id: 1337,
+  firstName: "White",
+  lastName: "Rose",
+  gender: "Female",
+  language: "Chinese",
+  emails: [ { email: "whiterose@example.org" } ]
+})};
 
 app.use("/graphql", graphqlHttp({
   schema,
