@@ -1,0 +1,19 @@
+{
+  "name": "graphql-lynda.com",
+  "version": "1.0.0",
+  "description": "Personal files from following the [course on lynda.com](https://www.lynda.com/GraphQL-tutorials/GraphQL-Essential-Training/614315-2.html)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4lun/graphql-lynda.com.git"
+  },
+  "author": "Alun Davey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4lun/graphql-lynda.com/issues"
+  },
+  "homepage": "https://github.com/4lun/graphql-lynda.com#readme"
+}
